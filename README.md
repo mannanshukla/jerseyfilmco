@@ -1,2 +1,0 @@
-# jerseyfilmco
-https://jerseyfilmco.org
