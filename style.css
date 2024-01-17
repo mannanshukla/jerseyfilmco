@@ -1,0 +1,114 @@
+html { font-size: 62.5%; }
+
+body { margin: 0;}
+
+.flex { display: flex; }
+
+.flex-col { flex-direction: column; }
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.text-center { text-align: center; }
+
+.white { color: white; }
+
+.arial { font-family: Arial; }
+
+.bg-cyan { background-color: lightseagreen; }
+
+.p-2rem { padding: 2rem; }
+
+.pt-2rem { padding-top: 2rem; }
+
+.pl-20rem { padding-left: 20rem; }
+
+.mt-4rem { margin-top: 4rem; }
+
+.ml-3rem { margin-left: 3rem; }
+
+.mr-3rem { margin-right: 3rem; }
+
+.bg-crimson { background-color: crimson; }
+
+.text-3rem { font-size: 3rem; }
+
+.text-5rem { font-size: 5rem; }
+
+.h-inherit { height: inherit; }
+
+.img {
+    background-image: url('https://picsum.photos/500/700');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    aspect-ratio: 1;
+}
+
+.card-img {
+    background-color: rgb(113, 113, 113);
+    padding: 8rem 5rem;
+    font: 2.5rem Arial;
+    color: rgb(214, 214, 214);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-desc {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.card-btn {
+    background-color: rgb(65, 65, 255);
+    color: white;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.m-3rem { margin: 3rem; }
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    /* max-width: 70%; */
+    /* align-items: center; */
+}
+
+.grid-wrapper > div > div {
+    max-width: 70%;
+}
+
+.card {
+    background-color: rgb(233, 233, 233);
+    border-radius: 1rem;
+    height: max-content;
+    font: 3rem Arial;
+}
+
+.circle {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: -200px;
+    left: -200px;
+    overflow: visible;
+}
